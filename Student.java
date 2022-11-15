@@ -1,9 +1,9 @@
-public class Rectangle{
-  private int width;
-  private int height;
+public class Student{
+  private String name;
+  private int age;
   
-  public Rectangle(int theWidth, int theHeight){
-    width = theWidth;
-    height = theHeight;
+  public Student(String theName, int theAge){
+    name = theName;
+    age = theAge;
   }
 }
